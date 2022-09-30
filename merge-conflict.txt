@@ -1,2 +1,3 @@
+
 This is the merge-conflict branch text
 This is the main branch text
