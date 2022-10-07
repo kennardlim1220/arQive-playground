@@ -15,9 +15,9 @@ Note: Most of these command assumes you are using a linux server except when vis
    - `git clone https://github.com/kennardlim1220/arQive-playground.git`  
 4. Enter the directory
    - `cd ./arQive-playground` 
-5. Whenever you begin, make sure your local repository is updated
-   -`git config pull.ff true`
-
+5. 
+   -`git config pull.ff true` You only need this once  
+   -`git pull`
 # Adding a file.
 1. Create a new branch for whatever you are going to do.  
    1. Create a branch called with the same name as your name.  
@@ -38,11 +38,11 @@ Note: Most of these command assumes you are using a linux server except when vis
       `git commit -m "added <your name>.txt"` 
 4. Push it to the repository
    `git push -u origin <your name>`
-5. Go to the repository on your host machine: https://github.com/kennardlim1220/arQive-playground.git
-6. Click branches -> New pull request -> Create pull request
-NOTE: DO NOT MERGE YOUR OWN PULL REQUEST. Honestly, it doesn't matter in the arQive-playground, but don't do it in the actual production.
+5. Go to the repository on your host machine: https://github.com/kennardlim1220/arQive-playground.git  
+6. Click branches -> New pull request -> Create pull request  
+NOTE: DO NOT MERGE YOUR OWN PULL REQUEST. Honestly, it doesn't matter in the arQive-playground, but don't do it in the actual production.  
 
-#Dealing with merge conflict
+# Dealing with merge conflict  
 1. Get a merge conflict
    ##Making a merge conflict
    1. Make a branch to have a merge conflict
@@ -81,7 +81,7 @@ NOTE: DO NOT MERGE YOUR OWN PULL REQUEST. Honestly, it doesn't matter in the arQ
          -`git add merge-conflict.txt
          -`git commit -m "merge conflict resolved"`
 
-#Editting an existing file
+# Editting an existing file
 1. Make a branch called update-names.txt
    `git switch -c update_names.txt`
 2. Edit the file names.txt and add your name.
@@ -96,7 +96,7 @@ NOTE: DO NOT MERGE YOUR OWN PULL REQUEST. Honestly, it doesn't matter in the arQ
 6. Click branches -> New Pull Request -> Create pull request
 7. During production, it is possible that someone edited the file and had it merged with the main branch in the mean time.
 
-#Notes:
+# Notes:
 Pre-existing rules from previous years:
 Contribution Rules
 
