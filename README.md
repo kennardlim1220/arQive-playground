@@ -5,41 +5,41 @@ Note: I recommend you watch https://www.youtube.com/watch?v=tRZGeaHPoaw for the 
 Note: Most of these command assumes you are using a linux server except when visiting a url
 #
 
-#Getting started
-1. Set up git
+# Getting started
+1. Set up git  
    `git config --global user.name "<your name>"`  
-   `git config --global user.email <your email>` 
-2. Go to where you want the project be.
-   `cd ~`
+   `git config --global user.email <your email>`  
+2. Go to where you want the project be.  
+   `cd ~`  
 3. Clone the repository  
-   - `git clone https://github.com/kennardlim1220/arQive-playground.git`
+   - `git clone https://github.com/kennardlim1220/arQive-playground.git`  
 4. Enter the directory
    - `cd ./arQive-playground` 
 5. Whenever you begin, make sure your local repository is updated
-   -`git pull origin main`
+   -`git config pull.ff true`
 
-#Adding a file.
+# Adding a file.
 1. Create a new branch for whatever you are going to do.  
-   1. Create a branch called newFile 
-      `git branch newFile`
-   2. Switch into that branch that you just created
-      `git switch newFile`
-   -  use `git switch -c newFile` to create and switch into a new branch in 1 line.
-   -  use `git branch` to ensure that you are using the correct branch (newFile)
-2. Edit the file. Replace <your name> with your name.
+   1. Create a branch called with the same name as your name.  
+      `git branch <your name>`
+   2. Switch into that branch that you just created  
+      `git switch <your name>`
+   -  use `git switch -c <your name>` to create and switch into a new branch in 1 line.  
+   -  use `git branch` to ensure that you are using the correct branch (*<your name>)  
+2. Edit the file. Replace <your name> with your name.  
      1. `nano <your name>.txt`
-     2.  Add whatever you want into the file.
-     3.  press ctrl + x, y, and finally enter to save and leave
-3. Tell git you are finished editing the files.
-   1. Add the files
+     2.  Add whatever you want into the file.  
+     3.  press ctrl + x, y, and finally enter to save and leave  
+3. Tell git you are finished editing the files.  
+   1. Add the files  
       `git add <your name>.txt` <br />
       Note: repeat `git add <your file>` for each file you want to commit.
    2. Commit the file
       `git commit -m "added <your name>.txt"` 
 4. Push it to the repository
-   `git push -u origin newFile`
+   `git push -u origin <your name>`
 5. Go to the repository on your host machine: https://github.com/kennardlim1220/arQive-playground.git
-6. 6. Click branches -> New pull request -> Create pull request
+6. Click branches -> New pull request -> Create pull request
 NOTE: DO NOT MERGE YOUR OWN PULL REQUEST. Honestly, it doesn't matter in the arQive-playground, but don't do it in the actual production.
 
 #Dealing with merge conflict
@@ -140,7 +140,7 @@ Right after creating a new branch, push it to remote to make it available for ev
 With 💻 command: git push
 
 
-✔️ Finished with the task and waant to merge?
+✔️ Finished with the task and want to merge?
 
 
 Fix conflicts if needed, usually happens when more than 1 developer is working on the same file on different branches - communicate with the other developer to make sure their work was not removed
@@ -150,3 +150,5 @@ Please make the merge/pull request with as much detail about what you've done/ad
 
 
 Or lead will merge your branch to master for you. Just ask!
+
+
