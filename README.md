@@ -1,5 +1,6 @@
 Commit whatever you feel like.
-Note: I recommend you watch https://www.youtube.com/watch?v=tRZGeaHPoaw for the visual. You don't have to though. This is just a extremely simplified version of that tutorial.
+Note: I recommend you watch https://www.youtube.com/watch?v=tRZGeaHPoaw for the visual of what every git commands looks like.
+Also, check out https://git-scm.com/docs/gittutorial, which is the official git tutorial.
 
 ## Instructions
 Note: Most of these command assumes you are using a linux server except when visiting a url
