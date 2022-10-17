@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 I'm from the main branch
-=======
-I'm from the merge_conflict branch
->>>>>>> merge_conflict
