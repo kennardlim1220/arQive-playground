@@ -1,3 +1,5 @@
+# Note: I sent everyone an invite on 16 Oct 2022. You need that to push to the repository. 
+
 Commit whatever you feel like.
 Note: I recommend you watch https://www.youtube.com/watch?v=tRZGeaHPoaw for the visual of what every git commands looks like.
 Also, check out https://git-scm.com/docs/gittutorial, which is the official git tutorial.
