@@ -1,4 +1,4 @@
-# Note: For your next activity, use git pull to get the rest of the branches. Then switch to the debug branch with `git switch debug`. Read the file for your task.
+# Note: For your next activity, use git pull to get the rest of the branches. Then switch to the debug branch with `git switch debug`. Read the file debug.py for your task.
 # DO NOT PUSH IT TO ORIGIN UNTIL EVERYONE IS FINISHED. If someone did, then go `git switch debug` -> `git merge debug_archive` -> `git restore .` 
 
 Commit whatever you feel like.
