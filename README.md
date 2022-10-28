@@ -1,4 +1,5 @@
-# Note: I sent everyone an invite on 16 Oct 2022. You need that to push to the repository. 
+# Note: For your next activity, use git pull to get the rest of the branches. Then switch to the debug branch with `git switch debug`. Read the file for your task.
+# DO NOT PUSH IT TO ORIGIN UNTIL EVERYONE IS FINISHED. If someone did, then go `git switch debug` -> `git merge debug_archive` -> `git restore .` 
 
 Commit whatever you feel like.
 Note: I recommend you watch https://www.youtube.com/watch?v=tRZGeaHPoaw for the visual of what every git commands looks like.
